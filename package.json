@@ -1,0 +1,28 @@
+{
+  "name": "yongdeng-blog",
+  "version": "1.0.0",
+  "description": "yongdeng blog —— AI Agent 应用开发、Java 微服务、以及从后端走向 AI 的转型记录",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs"
+  },
+  "keywords": [
+    "blog",
+    "vitepress",
+    "ai-agent",
+    "java"
+  ],
+  "author": "王永登",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="mountain" x1="0" y1="1" x2="0.6" y2="0">
+      <stop offset="0%" stop-color="#1d6559"/>
+      <stop offset="100%" stop-color="#4fb3a0"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8f5f2"/>
+      <stop offset="100%" stop-color="#c9e8e1"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="128" height="128" rx="28" fill="url(#sky)"/>
+
+  <!-- 远山 -->
+  <path d="M8 96 L34 58 L50 78 L64 52 L84 82 L100 62 L120 96 Z" fill="#a8d5cb" opacity="0.7"/>
+
+  <!-- 主峰 -->
+  <path d="M14 108 L52 44 L72 74 L88 54 L116 108 Z" fill="url(#mountain)"/>
+
+  <!-- 峰顶雪/光 -->
+  <path d="M52 44 L60 57 L52 60 L45 54 Z" fill="#f0faf7" opacity="0.9"/>
+
+  <!-- 山路 -->
+  <path d="M60 108 Q64 92 72 84 Q80 76 84 68" fill="none" stroke="#f0faf7" stroke-width="2.4"
+        stroke-linecap="round" opacity="0.65"/>
+
+  <!-- 人 -->
+  <circle cx="84" cy="62" r="3.2" fill="#f0faf7"/>
+  <path d="M84 66 L84 74 M84 69 L80 72 M84 69 L88 72" stroke="#f0faf7" stroke-width="2"
+        stroke-linecap="round" opacity="0.9"/>
+</svg>
